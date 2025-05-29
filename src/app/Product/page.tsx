@@ -67,7 +67,6 @@ useEffect(() => {
 
     <div className="min-h-screen bg-white dark:bg-gray-900 p-6 transition-colors duration-300">
       <header className="flex justify-between items-center mb-6">
-        <h1 className="text-3xl font-bold text-green-400 dark:text-white">VelynProduct</h1>
         <div className="flex gap-4 items-center">
           <input
             type="text"

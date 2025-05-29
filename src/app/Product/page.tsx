@@ -8,7 +8,6 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Container } from "@/components/Container";
 import { allProducts } from "./dataproduk";
 import Carousel from "./caraosel/dataCaraosel";
-import WelcomePopup from "@/components/WelcomePopup";
 
 export default function HomePage() {
   const [cart, setCart] = useState<any[]>([]);
@@ -62,7 +61,6 @@ useEffect(() => {
   return (
    <div className="relative"> 
     <Container>
-    <WelcomePopup />  
    <div className="mb-10 -mt-6">   
     <Carousel />  
    </div>

@@ -1,6 +1,6 @@
 import Groq from "groq-sdk";
 
-const client = new Groq({ apiKey: "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" });
+const client = new Groq({ apiKey: "YOUR_GROQ-APIKEY" });
 
 async function VelynChat(prompt) {
   const chatCompletion = await client.chat.completions.create({

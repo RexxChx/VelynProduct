@@ -39,7 +39,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash terminal
 # pihak ketiga repositori VelynProduct
-$ git clone https://github.com/RexxChx/begadang.git
+$ git clone https://github.com/RexxChx/VelynProduct.git
 
 # Masuk ke repositori VelynProduct
 $ cd begadang-main
